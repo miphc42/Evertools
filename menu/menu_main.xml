@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:title="Home"
+            android:icon="@drawable/ic_home_black"
+            />
+        <item
+            android:id="@+id/Notes"
+            android:icon="@drawable/ic_notes"
+            android:title="Notes" />
+        <item
+            android:id="@+id/Alarm"
+            android:icon="@drawable/ic_alarm"
+            android:title="Reminders" />
+        <item
+            android:id="@+id/Timer"
+            android:icon="@drawable/ic_timer"
+            android:title="Timer" />
+        <item
+            android:id="@+id/QRCode"
+            android:icon="@drawable/ic_code"
+            android:title="QRCode" />
+        <item
+            android:id="@+id/Calender"
+            android:icon="@drawable/ic_today"
+            android:title="Calender" />
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/Settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+</menu>
